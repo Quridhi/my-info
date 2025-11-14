@@ -6,11 +6,11 @@ def main(page:Page):
     page.window.title_bar_hidden=True
     page.add(
         Text(value="wellcome to this app"),
-        Text(value="this app developed by QURAIDY"),
-        Image(src="assets/logo.png",width=230)
+        Text(value="this app developed by QURAIDY")
     )
 
 
     page.update()
 
 app(main)
+
